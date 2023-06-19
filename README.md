@@ -1,7 +1,7 @@
 For user:
 
-Ensure CSV files in Resources folder are downloaded and accessible 
-Open covid_data.ipynb in Jupyter notebook and run
+- Ensure CSV files in Resources folder are downloaded and accessible 
+- Open covid_data.ipynb in Jupyter notebook and run
 
 
 Citations:
