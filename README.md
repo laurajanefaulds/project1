@@ -1,17 +1,33 @@
-For user:
+# project1
 
-- Ensure CSV files in Resources folder are downloaded and accessible 
-- Open covid_data.ipynb in Jupyter notebook and run
-- Slide presentation and written report have been saved as PDF files for wider accessibility  
+### Contents
 
+- pie_chart.py: This code generates a pie chart to visualize the proportion of confirmed deaths and probable deaths for a selected state.
 
-Citations:
+- descriptive_statistics.py: This code calculates descriptive statistics for the 'Red Cases' and 'Blue Cases' columns in a DataFrame.
 
-- "United_States_COVID-19_Cases_and_Deaths_by_State_over_Time_-_ARCHIVED.csv" from data.gov
-- "state_population.csv" from census.gov 
-- "US-2-letter-state-code" from kaggle 
-- "Red vs. Blue States" dataframe was hard-coded using 2021 state colour data acquired through ChatGPT OpenAI 
+- linear_regression.py: This code performs linear regression on the 'Red Cases' and 'Blue Cases' columns in a DataFrame and calculates evaluation metrics.
 
-- consulted ChatGPT OpenAI for assistance with "Average Total Cases, Red States vs. Blue States" plot. All code is original except for "plt.bar(averages.keys(), averages.values(), color=colors)"
--consulted ChatGPT OpenAI for assistance with "Prevalence by Red/Blue States", "Highest/Lowest Case Prevalence "plots. All code is original, help was provided for reset_index() function
-- consulted Class Activities as well as past assignments from Pandas, Matplotlib and API Modules while cleaning and analyzing dataframes
+- t_test.py: This code performs an independent two-sample t-test on the 'Blue Cases' and 'Red Cases' columns in a DataFrame and prints the t-statistic and p-value.
+
+- geocoding.py: This code performs batch geocoding of state names using the Nominatim geocoder and creates a dictionary mapping state names to latitude and longitude coordinates.
+
+- `map_visualization.py`: This code creates a map visualization using geospatial data and the Folium library. It plots markers for each state in the DataFrame, showing the state name, total cases, and total deaths.
+
+### Instructions
+
+To use these code snippets, follow these steps:
+
+1. Install the required libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `scipy`, `geopy`, `geopandas`, and `folium`. You can install them using pip or conda.
+
+2. Open the desired code snippet in a Python environment or editor.
+
+3. Modify the code as needed, such as selecting a specific state or providing the path to the data file.
+
+4. Run the code and observe the output or visualization generated.
+
+5. Repeat for other code snippets as needed.
+
+Please note that these code snippets are provided as-is and may require additional modifications or adaptations to suit your specific use case or data format.
+
+Enjoy exploring the data and creating visualizations!
